@@ -56,7 +56,11 @@ Desenvolver um sistema que classifique heróis em diferentes níveis baseado em 
 
 classificador-heroi/
 │
+
 ├── index.html # Página principal
+
 ├── style.css # Estilização
+
 ├── script.js # Lógica do classificador
+
 └── README.md # Documentação
