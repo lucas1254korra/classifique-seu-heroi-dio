@@ -1,0 +1,33 @@
+<head>
+    <title>Classificador de Heróis - DIO</title>
+</head>
+<body>
+    <div class="caixinharesultado">
+        <h1>Classifique seu Rank</h1>
+        
+        <div class="inserir-nome">
+            <label for="nome">Nome do Herói:</label>
+            <input type="text" id="nome" placeholder="Ex: Lucas" value="">
+        </div>
+
+        <div class="inserir-nome">
+            <label for="xp">Experiência (XP):</label>
+            <input type="number" id="xp" placeholder="Ex: 7500" value="" min="0">
+        </div>
+
+        <button onclick="classificarHeroi()">Classificar</button>
+
+        <div class="resultado" id="resultado">
+            <div>O Herói de nome <span class="nome-heroi" id="nomeResultado"></span></div>
+            
+            <!-- NOVO: Container para o personagem -->
+            <div class="personagem-container">
+                <img id="personagemGif" class="personagem-gif" src="" alt="Personagem">
+            </div>
+            
+            <div class="nivel" id="nivelResultado"></div>
+            <div class="xp-info">XP: <span id="xpResultado"></span></div>
+        </div>
+    </div>
+</body>
+</html>
